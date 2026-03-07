@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Brand Colors */
+  --color-primary: #0A192F; /* Deep Navy Blue for trust */
+  --color-secondary: #FFD700; /* Gold/Yellow from Mercado Livre/Amazon/Logo */
+  --color-accent: #25D366; /* WhatsApp Green */
+  --color-telegram: #229ED9; /* Telegram Blue */
+  
+  /* Neutral Colors */
+  --color-bg-light: #F8FAFC;
+  --color-text-dark: #1E293B;
+  --color-text-light: #64748B;
+  --color-white: #FFFFFF;
+  
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #FFD700, #F59E0B);
+  --gradient-dark: linear-gradient(135deg, #0A192F, #112240);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-glow: 0 0 15px rgba(37, 211, 102, 0.4);
+  --shadow-glow-telegram: 0 0 15px rgba(34, 158, 217, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+  70% { transform: scale(1.02); box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+@keyframes pulseTelegram {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 158, 217, 0.4); }
+  70% { transform: scale(1.02); box-shadow: 0 0 0 10px rgba(34, 158, 217, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 158, 217, 0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-pulse-green {
+  animation: pulse 2s infinite;
+}
+
+.animate-pulse-blue {
+  animation: pulseTelegram 2s infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+}
+
+/* Base App Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Button Base Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 9999px; /* Pill shape */
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: auto;
+    min-width: 300px;
+  }
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}

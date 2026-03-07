@@ -1,0 +1,120 @@
+.hero {
+    background: var(--gradient-dark);
+    color: var(--color-white);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0 6rem 0;
+}
+
+/* Background Effect Element */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 60%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero-container {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    color: var(--color-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-wrap: balance;
+}
+
+.hero-title .highlight {
+    color: var(--color-secondary);
+    position: relative;
+    display: inline-block;
+}
+
+.hero-title .highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 215, 0, 0.2);
+    z-index: -1;
+    transform: skewX(-15deg);
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    color: #CBD5E1;
+    /* Slate 300 */
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-cta-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .hero-description {
+        font-size: 1.25rem;
+    }
+}
+
+/* Buttons */
+.btn-whatsapp {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    box-shadow: var(--shadow-glow);
+}
+
+.btn-whatsapp:hover {
+    background-color: #20BA56;
+}
+
+.btn-telegram {
+    background-color: var(--color-telegram);
+    color: var(--color-white);
+    box-shadow: var(--shadow-glow-telegram);
+}
+
+.btn-telegram:hover {
+    background-color: #1A8CBF;
+}
+
+.hero-guarantee {
+    font-size: 0.875rem;
+    color: #94A3B8;
+    /* Slate 400 */
+    margin-top: 1rem;
+}
