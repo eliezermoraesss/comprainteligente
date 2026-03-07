@@ -9,7 +9,7 @@ export default function Hero() {
                     <div className="badge animate-float">🔥 Ofertas Exclusivas Diárias</div>
 
                     <h2 className="hero-title">
-                        Encontre achados com <span className="highlight">descontos reais</span> das maiores lojas online do Brasil!
+                        As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do Brasil!
                     </h2>
 
                     <p className="hero-description">

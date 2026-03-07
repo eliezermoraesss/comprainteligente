@@ -48,12 +48,12 @@ export default function Features() {
                 <div className="logos-section animate-fade-in delay-300">
                     <p className="logos-text">OFERTAS EXCLUSIVAS DAS MAIORES LOJAS</p>
                     <div className="logos-container">
-                        <div className="store-badge amazon-badge">
+                        <a href="https://www.amazon.com.br/hz/wishlist/ls/1PLP63H89RMHP?ref_=wl_share" target="_blank" rel="noopener noreferrer" className="store-badge amazon-badge">
                             <img src="/amazon.svg" alt="Amazon" className="store-logo" />
-                        </div>
-                        <div className="store-badge ml-badge">
+                        </a>
+                        <a href="https://www.mercadolivre.com.br/social/moraessilvaeliezer" target="_blank" rel="noopener noreferrer" className="store-badge ml-badge">
                             <img src="/mercadolivre.png" alt="Mercado Livre" className="store-logo" />
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
