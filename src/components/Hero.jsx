@@ -6,10 +6,10 @@ export default function Hero() {
         <section className="hero section">
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in">
-                    <div className="badge animate-float">🔥 Ofertas Exclusivas Diárias</div>
+                    <div className="badge animate-float">🔥 Ofertas e Cupons Exclusivos</div>
 
                     <h2 className="hero-title">
-                        As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do Brasil!
+                        As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do <span className="highlight">Brasil</span>
                     </h2>
 
                     <p className="hero-description">
@@ -28,13 +28,23 @@ export default function Hero() {
                         </a>
 
                         <a
+                            href="https://whatsapp.com/channel/0029Vb76HYMCBtxGmtnsCq0W"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-whatsapp animate-pulse-green"
+                        >
+                            <MessageCircle size={24} />
+                            <span>Acessar Canal do WhatsApp</span>
+                        </a>
+
+                        <a
                             href="https://t.me/comprainteligenteofc"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-telegram animate-pulse-blue"
                         >
                             <Send size={24} />
-                            <span>Acessar Canal Gratuito</span>
+                            <span>Acessar Canal do Telegram</span>
                         </a>
                     </div>
 

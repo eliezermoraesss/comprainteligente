@@ -1,3 +1,4 @@
+import { MessageCircle, Send } from 'lucide-react';
 import './Footer.css';
 import { ShoppingCart } from 'lucide-react';
 
@@ -21,13 +22,18 @@ export default function Footer() {
                     <h4 className="footer-heading">Nossas Comunidades</h4>
                     <ul className="footer-list">
                         <li>
-                            <a href="https://chat.whatsapp.com/HMQHz338yUn9nall7l2i54" target="_blank" rel="noopener noreferrer">
-                                Grupo Vip no WhatsApp
+                            <a href="https://chat.whatsapp.com/HMQHz338yUn9nall7l2i54" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <MessageCircle size={18} /> Grupo Vip no WhatsApp
                             </a>
                         </li>
                         <li>
-                            <a href="https://t.me/comprainteligenteofc" target="_blank" rel="noopener noreferrer">
-                                Canal Oficial no Telegram
+                            <a href="https://whatsapp.com/channel/0029Vb76HYMCBtxGmtnsCq0W" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <MessageCircle size={18} /> Canal Oficial no WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/comprainteligenteofc" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <Send size={18} /> Canal Oficial no Telegram
                             </a>
                         </li>
                     </ul>
