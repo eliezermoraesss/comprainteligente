@@ -1,16 +1,72 @@
-# React + Vite
+<div align="center">
+  <img src="public/logo.png" alt="Compra Inteligente Logo" width="120" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Compra Inteligente 🛒💡</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  Uma landing page moderna e conversiva focada em conectar usuários às melhores ofertas e descontos reais da internet, através de comunidades no WhatsApp e Telegram.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Sobre o Projeto
 
-## React Compiler
+O **Compra Inteligente** foi desenvolvido com um foco profundo em **User Interface (UI)** e **User Experience (UX)**. O objetivo principal da aplicação é criar um ambiente digital confiável, rápido e seguro para os usuários que buscam economizar em lojas parceiras oficiais.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A estrutura visual utiliza micro-interações, tipografia moderna e paletas de cores orientadas para conversão (CTAs), garantindo que a jornada do usuário até a entrada nos grupos VIP seja fluida e livre de atritos.
 
-## Expanding the ESLint configuration
+### ✨ Destaques de UI/UX:
+- **Design Responsivo:** Adaptado perfeitamente para dispositivos móveis, tablets e telas grandes.
+- **Glassmorphism & Neumorphism:** Elementos modernos com profundidade e transparência sutil (`.badge`).
+- **Animações (Micro-interações):** Efeitos de *fade-in*, *float*, pulsos visuais (ex: botões do WhatsApp e Telegram piscando sutilmente) e transições suaves de hover nos escudos de parceiros.
+- **Balanço Textual (`text-wrap: balance`):** Títulos garantidos de possuírem quebras de linha esteticamente agradáveis em todas as resoluções.
+- **Acessibilidade Visível:** Alto contraste para fácil leitura e links acessíveis com alvos fáceis de clicar (Hitboxes maiores).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **[React](https://reactjs.org/)** (v19) - Biblioteca principal de UI
+- **[Vite](https://vitejs.dev/)** - Ferramenta de build super rápida (HMR e otimização de pacotes)
+- **Vanilla CSS** - Estilizações nativas e customizadas voltadas a performance
+- **[Lucide React](https://lucide.dev/)** - Ícones consistentes e leves
+
+---
+
+## ⚙️ Como Rodar o Projeto na Sua Máquina
+
+Siga o passo a passo abaixo para executar o projeto localmente.
+
+### Pré-requisitos
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado na sua máquina. A instalação do Node já embute o gerenciador de pacotes `npm`.
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/eliezermoraesss/comprainteligente.git
+cd comprainteligente
+```
+
+### 2. Instale as dependências
+Execute este comando na raiz do projeto para baixar todos os pacotes necessários:
+```bash
+npm install
+```
+*(Caso encontre erro de ExecutionPolicy no Windows, abra o PowerShell como administrador e rode: `Set-ExecutionPolicy RemoteSigned`)*
+
+### 3. Inicie o servidor de desenvolvimento
+```bash
+npm run dev
+```
+
+### 4. Visualize no Navegador
+O terminal fornecerá um link local, geralmente:
+`http://localhost:5173/`
+
+*(Opcional) Para acessar via celular na mesma rede Wi-Fi:*
+```bash
+npm run dev -- --host
+```
+
+---
+
+## 👨‍💻 Desenvolvedor
+Desenvolvido por **Eliezer Moraes**. Connect-se comigo através das minhas redes!
