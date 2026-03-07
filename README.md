@@ -69,4 +69,10 @@ npm run dev -- --host
 ---
 
 ## 👨‍💻 Desenvolvedor
-Desenvolvido por **Eliezer Moraes**. Connect-se comigo através das minhas redes!
+Desenvolvido por **Eliezer Moraes**. Conecte-se comigo:
+
+- **Email**: [eliezer.moraes@outlook.com](mailto:eliezer.moraes@outlook.com)
+- **LinkedIn**: [Eliezer Moraes Silva](https://www.linkedin.com/in/eliezer-moraes-silva-80b68010b)
+- **GitHub**: [@eliezermoraesss](https://github.com/eliezermoraesss)
+- **Instagram**: [@eliezer.moraesss](https://www.instagram.com/eliezer.moraesss/)
+- **Wakatime**: [@eliezermoraes](https://wakatime.com/@eliezermoraes)
