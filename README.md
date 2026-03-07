@@ -8,6 +8,12 @@
   Uma landing page moderna e conversiva focada em conectar usuários às melhores ofertas e descontos reais da internet, através de comunidades no WhatsApp e Telegram.
 </p>
 
+<p align="center">
+  <strong>🌐 Acesse ao Vivo:</strong> <a href="https://comprainteligente-dun.vercel.app/" target="_blank">comprainteligente-dun.vercel.app</a><br/>
+  <strong>📸 Siga o Instagram:</strong> <a href="https://www.instagram.com/compra_inteligenteofc/" target="_blank">@compra_inteligenteofc</a>
+</p>
+
+
 ## 🚀 Sobre o Projeto
 
 O **Compra Inteligente** foi desenvolvido com um foco profundo em **User Interface (UI)** e **User Experience (UX)**. O objetivo principal da aplicação é criar um ambiente digital confiável, rápido e seguro para os usuários que buscam economizar em lojas parceiras oficiais.
