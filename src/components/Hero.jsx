@@ -6,6 +6,7 @@ export default function Hero() {
         <section className="hero section">
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in">
+                    <div className="badge animate-float">🔥 OFERTAS E CUPONS EXCLUSIVOS!</div>
                     <div className="hero-cta-group delay-200">
                         <a
                             href="https://chat.whatsapp.com/HMQHz338yUn9nall7l2i54"
@@ -37,7 +38,6 @@ export default function Hero() {
                             <span>Acessar Canal do Telegram</span>
                         </a>
                     </div>
-                    <div className="badge animate-float">🔥 Ofertas e Cupons Exclusivos</div>
 
                     <h2 className="hero-title">
                         As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do <span className="highlight">Brasil</span>
