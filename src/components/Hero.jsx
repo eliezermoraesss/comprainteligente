@@ -6,16 +6,6 @@ export default function Hero() {
         <section className="hero section">
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in">
-                    <div className="badge animate-float">🔥 Ofertas e Cupons Exclusivos</div>
-
-                    <h2 className="hero-title">
-                        As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do <span className="highlight">Brasil</span>
-                    </h2>
-
-                    <p className="hero-description">
-                        Só compartilho links de <strong>lojas oficiais ou autorizadas</strong>, pra você comprar com total segurança. Você não precisa fazer nada: é só acompanhar, escolher e aproveitar!
-                    </p>
-
                     <div className="hero-cta-group delay-200">
                         <a
                             href="https://chat.whatsapp.com/HMQHz338yUn9nall7l2i54"
@@ -47,6 +37,15 @@ export default function Hero() {
                             <span>Acessar Canal do Telegram</span>
                         </a>
                     </div>
+                    <div className="badge animate-float">🔥 Ofertas e Cupons Exclusivos</div>
+
+                    <h2 className="hero-title">
+                        As melhores <span className="highlight">ofertas e achados</span> com <span className="highlight">descontos reais</span> das maiores lojas online do <span className="highlight">Brasil</span>
+                    </h2>
+
+                    <p className="hero-description">
+                        Só compartilho links de <strong>lojas oficiais ou autorizadas</strong>, pra você comprar com total segurança. Você não precisa fazer nada: é só acompanhar, escolher e aproveitar!
+                    </p>
 
                     <p className="hero-guarantee delay-300">
                         ✅ 100% Gratuito. Sem spans. Só ofertas de verdade.
