@@ -6,7 +6,7 @@ export default function Hero() {
         <section className="hero section">
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in">
-                    <div className="badge animate-float">🔥 OFERTAS E CUPONS EXCLUSIVOS!</div>
+                    <div className="badge animate-float">🔥 OFERTAS E CUPONS EXCLUSIVOS</div>
                     <div className="hero-cta-group delay-200">
                         <a
                             href="https://chat.whatsapp.com/HMQHz338yUn9nall7l2i54"
