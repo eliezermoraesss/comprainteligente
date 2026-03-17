@@ -17,26 +17,6 @@ export default function Hero() {
                             <MessageCircle size={24} />
                             <span>Entrar no Grupo VIP</span>
                         </a>
-
-                        <a
-                            href="https://whatsapp.com/channel/0029Vb76HYMCBtxGmtnsCq0W"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-whatsapp animate-pulse-green"
-                        >
-                            <MessageCircle size={24} />
-                            <span>Acessar Canal do WhatsApp</span>
-                        </a>
-
-                        <a
-                            href="https://t.me/comprainteligenteofc"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-telegram animate-pulse-blue"
-                        >
-                            <Send size={24} />
-                            <span>Acessar Canal do Telegram</span>
-                        </a>
                     </div>
 
                     <h2 className="hero-title">
